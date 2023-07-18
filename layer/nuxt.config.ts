@@ -10,7 +10,13 @@ export default defineNuxtConfig({
     modules: [
         '@nuxtjs/i18n'
     ],
-    i18n: {
-        vueI18n: resolve('./i18n.config.ts'),
-    },
+    // i18n: {
+    //     vueI18n: resolve('./i18n.config.ts'),
+    //     lazy: true,
+    //     strategy: 'no_prefix',
+    //     langDir: './locales',
+    //     locales: [
+    //       { code: 'cs', file: 'cs.yml' },
+    //     ],
+    // },
 })

@@ -11,7 +11,7 @@
     "dev": "pnpm --filter test-app dev"
   },
   "devDependencies": {
-    "@nuxtjs/i18n": "v8.0.0-beta.12",
+    "@nuxtjs/i18n": "8.0.0-beta.13",
     "vue-tsc": "^1.6.5"
   },
   "overrides": {
